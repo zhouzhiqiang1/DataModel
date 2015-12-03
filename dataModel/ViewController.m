@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+    //获取网络数据 Model
     self.viewModel = [[YDViewModel alloc] init];
     [self.viewModel fetchList];
    
@@ -49,10 +49,7 @@
 }
 
 - (IBAction)onNSArrayButton:(id)sender {
-    
- 
-    
-    
+//     rews 获取
     YDNetworkDataUserInfo *guestbookList = [self.viewModel objectAtIndex:0];
     
     NSLog(@"%@",guestbookList.title);

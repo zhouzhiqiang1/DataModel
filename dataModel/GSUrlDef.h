@@ -9,7 +9,7 @@
 #ifndef GlassStore_GSUrlDef_h
 #define GlassStore_GSUrlDef_h
 
-
+//pch 文件中修改地址
 #ifdef DEVSERVER
 #define GSHttpServer @"http://218.108.65.211/"
 //#define GSHttpServer @"http://192.168.0.119:8080/"
@@ -17,9 +17,8 @@
 #define GSHttpServer @"http://test.readyidu.com/"
 
 #else
-#define GSHttpServer @"http://test.readyidu.com/"
+#define GSHttpServer @"https://api.readyidu.com/"
 #endif
-
 
 static NSString * const kURLRequestHeaderIdReadFromCache = @"CustomHeaderReadFromCache";
 

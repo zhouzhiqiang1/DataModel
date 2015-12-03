@@ -202,7 +202,7 @@
                   moduleName = "dataModel"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/r_zhou/Documents/DataModel/dataModel/ORBaseHttpTask.m"
-                  timestampString = "470824792.433183"
+                  timestampString = "470826072.708196"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "108"
@@ -217,7 +217,7 @@
                   moduleName = "dataModel"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/r_zhou/Documents/DataModel/dataModel/ORBaseHttpTask.m"
-                  timestampString = "470824792.433519"
+                  timestampString = "470826072.708531"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "108"
@@ -250,7 +250,7 @@
                   moduleName = "dataModel"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/r_zhou/Documents/DataModel/dataModel/YDViewModel.m"
-                  timestampString = "470824792.437082"
+                  timestampString = "470826072.710545"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -265,7 +265,7 @@
                   moduleName = "dataModel"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/r_zhou/Documents/DataModel/dataModel/YDViewModel.m"
-                  timestampString = "470824792.437362"
+                  timestampString = "470826072.710882"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -273,6 +273,62 @@
                   offsetFromSymbolStart = "36">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dataModel/zzq.pch"
+            timestampString = "470826285.372511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dataModel/zzq.pch"
+            timestampString = "470826285.372511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dataModel/zzq.pch"
+            timestampString = "470826285.372511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dataModel/zzq.pch"
+            timestampString = "470826285.372511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

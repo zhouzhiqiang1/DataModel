@@ -1,0 +1,26 @@
+//
+//  zzq.pch
+//  dataModel
+//
+//  Created by r_zhou on 15/12/3.
+//  Copyright © 2015年 r_zhou. All rights reserved.
+//
+
+#ifndef zzq_pch
+#define zzq_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+/**
+ *  测试环境
+ */
+#define TESTSERVER
+/**
+ *  开发环境
+ */
+//#define DEVSERVER
+
+
+#endif
+
+#endif
