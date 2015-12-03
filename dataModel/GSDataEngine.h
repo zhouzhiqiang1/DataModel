@@ -31,8 +31,12 @@ static NSString * const kKeyHttpHeaderToken = @"token";
 
 
 /**
- *  获取个人信息
+ *  本地 NSString 信息获取
  */
--(GSHTTPTask *)addGetPersonalInformationActionTaskWithResponse:(GSTaskBlock())aResponseBlock userid:(long long)userid;
+-(GSHTTPTask *)addGetLocalDataActionTaskWithResponse:(GSTaskBlock())aResponseBlock userid:(long long)userid;
 
+/**
+ *  网络 rews 信息获取
+ */
+-(GSHTTPTask *)addGetNetworkDataActionTaskWithResponse:(GSTaskBlock())aResponseBlock userid:(long long)userid;
 @end

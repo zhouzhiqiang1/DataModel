@@ -12,8 +12,11 @@
 
 @end
 
+@implementation YDNetworkDataUserInfo
+
+@end
 @implementation YDUserinfo
 + (Class)rows_class {
-    return [YDDataUserInfo class];
+    return [YDNetworkDataUserInfo class];
 }
 @end

@@ -9,9 +9,10 @@
 #import "ViewController.h"
 #import "GSDataDef.h"
 #import "GSDataEngine.h"
+#import "YDViewModel.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) YDViewModel *viewModel;
 @end
 
 @implementation ViewController
@@ -21,6 +22,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
+    self.viewModel = [[YDViewModel alloc] init];
+    [self.viewModel fetchList];
+   
     
 }
 
@@ -30,7 +34,7 @@
 }
 #pragma mark -- Ation
 - (IBAction)onDataButton:(id)sender {
-    [[GSDataEngine shareEngine] addGetPersonalInformationActionTaskWithResponse:^(GSTaskResponse *aTaskResponse) {
+    [[GSDataEngine shareEngine] addGetLocalDataActionTaskWithResponse:^(GSTaskResponse *aTaskResponse) {
         if (aTaskResponse.errorCode == GSErrorCMSuccess) {
             YDDataUserInfo *dataUserInfo = [[YDDataUserInfo alloc] initWithDictionary:aTaskResponse.data];
             NSLog(@"成功 %d", dataUserInfo.sex);
@@ -45,6 +49,13 @@
 }
 
 - (IBAction)onNSArrayButton:(id)sender {
+    
+ 
+    
+    
+    YDNetworkDataUserInfo *guestbookList = [self.viewModel objectAtIndex:0];
+    
+    NSLog(@"%@",guestbookList.title);
 }
 
 @end

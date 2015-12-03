@@ -48,18 +48,28 @@
 #endif
 }
 #pragma mark -- 本地数据(网络数据简单获取)
--(GSHTTPTask *)addGetPersonalInformationActionTaskWithResponse:(GSTaskBlock())aResponseBlock userid:(long long)userid
+-(GSHTTPTask *)addGetLocalDataActionTaskWithResponse:(GSTaskBlock())aResponseBlock userid:(long long)userid
 {
     ORBaseHttpTask *task = [[ORBaseHttpTask alloc] initWithUrl:GSUrlOtherUserInfo
                                                       httpType:YDHttpTypePost
                                                         params:nil];
-//    task.useFakeData = YES;
-//    task.fakeJsonName = @"SimpleData";
+    task.useFakeData = YES;
+    task.fakeJsonName = @"SimpleData";
     [task setResponseBlock:aResponseBlock];
     [task run];
     return task;
 }
 
 #pragma mark -- 本地数据(网络数据简单获取)
-
+-(GSHTTPTask *)addGetNetworkDataActionTaskWithResponse:(GSTaskBlock())aResponseBlock userid:(long long)userid
+{
+    ORBaseHttpTask *task = [[ORBaseHttpTask alloc] initWithUrl:GSUrlOtherUserInfo
+                                                      httpType:YDHttpTypePost
+                                                        params:nil];
+    //    task.useFakeData = YES;
+    //    task.fakeJsonName = @"SimpleData";
+    [task setResponseBlock:aResponseBlock];
+    [task run];
+    return task;
+}
 @end

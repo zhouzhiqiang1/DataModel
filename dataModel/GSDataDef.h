@@ -23,6 +23,17 @@ typedef NS_OPTIONS(NSInteger, YDHttpType) {
 @property (strong, nonatomic) NSString *photo;
 @end
 
+
+@interface YDNetworkDataUserInfo : Jastor
+
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSString *btype;
+@property (strong, nonatomic) NSString *url;
+
+@property (strong, nonatomic) NSString *photo;
+@property (strong, nonatomic) NSString *catalog;
+@end
+
 @interface YDUserinfo :Jastor
 @property (assign, nonatomic) int count;
 @property (assign, nonatomic) int pagesize;

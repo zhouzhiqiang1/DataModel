@@ -2,12 +2,12 @@
 //  YDViewModel.h
 //  dataModel
 //
-//  Created by r_zhou on 15/11/27.
+//  Created by r_zhou on 15/12/3.
 //  Copyright © 2015年 r_zhou. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "ORBaseListModel.h"
 
-@interface YDViewModel : NSObject
-- (void)data;
+@interface YDViewModel : ORBaseListModel
+- (void)fetchList;
 @end

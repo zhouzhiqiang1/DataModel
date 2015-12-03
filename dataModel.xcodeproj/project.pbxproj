@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0482EAD4F59BDC89C0B5F9B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C32C3D62CB55FEB029929E7C /* libPods.a */; };
+		DD6EE6A11C1035B600CE3707 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6EE69C1C1035B600CE3707 /* BaseModel.m */; };
+		DD6EE6A21C1035B600CE3707 /* ORBaseListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6EE69E1C1035B600CE3707 /* ORBaseListModel.m */; };
+		DD6EE6A31C1035B600CE3707 /* ORBasePageListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6EE6A01C1035B600CE3707 /* ORBasePageListModel.m */; };
+		DD6EE6A61C1035D000CE3707 /* YDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6EE6A51C1035D000CE3707 /* YDViewModel.m */; };
 		DD7D64F51C07F53100805075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D64F41C07F53100805075 /* main.m */; };
 		DD7D64F81C07F53100805075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D64F71C07F53100805075 /* AppDelegate.m */; };
 		DD7D64FB1C07F53100805075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D64FA1C07F53100805075 /* ViewController.m */; };
@@ -33,7 +37,6 @@
 		DD7D65E31C08548B00805075 /* GSTaskEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D65DC1C08548B00805075 /* GSTaskEngine.m */; };
 		DD7D65E41C08548B00805075 /* GSTaskResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D65DE1C08548B00805075 /* GSTaskResponse.m */; };
 		DD7D65E51C08548B00805075 /* ORBaseHttpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D65E01C08548B00805075 /* ORBaseHttpTask.m */; };
-		DD7D65E91C085BB500805075 /* YDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D65E81C085BB500805075 /* YDViewModel.m */; };
 		DD7D65EC1C085E8E00805075 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D65EB1C085E8E00805075 /* Observer.m */; };
 		DD7D65EF1C085F3400805075 /* NSArryData.json in Resources */ = {isa = PBXBuildFile; fileRef = DD7D65ED1C085F3400805075 /* NSArryData.json */; };
 		DD7D65F01C085F3400805075 /* SimpleData.json in Resources */ = {isa = PBXBuildFile; fileRef = DD7D65EE1C085F3400805075 /* SimpleData.json */; };
@@ -60,6 +63,14 @@
 		44A41BD55B25A63A20236CCD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		555CEFDDE19BC960C3643D5C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C32C3D62CB55FEB029929E7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6EE69B1C1035B600CE3707 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		DD6EE69C1C1035B600CE3707 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		DD6EE69D1C1035B600CE3707 /* ORBaseListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBaseListModel.h; sourceTree = "<group>"; };
+		DD6EE69E1C1035B600CE3707 /* ORBaseListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBaseListModel.m; sourceTree = "<group>"; };
+		DD6EE69F1C1035B600CE3707 /* ORBasePageListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBasePageListModel.h; sourceTree = "<group>"; };
+		DD6EE6A01C1035B600CE3707 /* ORBasePageListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBasePageListModel.m; sourceTree = "<group>"; };
+		DD6EE6A41C1035D000CE3707 /* YDViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDViewModel.h; sourceTree = "<group>"; };
+		DD6EE6A51C1035D000CE3707 /* YDViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDViewModel.m; sourceTree = "<group>"; };
 		DD7D64F01C07F53100805075 /* dataModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7D64F41C07F53100805075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD7D64F61C07F53100805075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,8 +122,6 @@
 		DD7D65DE1C08548B00805075 /* GSTaskResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTaskResponse.m; sourceTree = "<group>"; };
 		DD7D65DF1C08548B00805075 /* ORBaseHttpTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBaseHttpTask.h; sourceTree = "<group>"; };
 		DD7D65E01C08548B00805075 /* ORBaseHttpTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBaseHttpTask.m; sourceTree = "<group>"; };
-		DD7D65E71C085BB500805075 /* YDViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDViewModel.h; sourceTree = "<group>"; };
-		DD7D65E81C085BB500805075 /* YDViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDViewModel.m; sourceTree = "<group>"; };
 		DD7D65EA1C085E8E00805075 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
 		DD7D65EB1C085E8E00805075 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 		DD7D65ED1C085F3400805075 /* NSArryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NSArryData.json; path = Json/NSArryData.json; sourceTree = "<group>"; };
@@ -152,6 +161,19 @@
 				44A41BD55B25A63A20236CCD /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD6EE69A1C10355000CE3707 /* ORListModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD6EE69B1C1035B600CE3707 /* BaseModel.h */,
+				DD6EE69C1C1035B600CE3707 /* BaseModel.m */,
+				DD6EE69D1C1035B600CE3707 /* ORBaseListModel.h */,
+				DD6EE69E1C1035B600CE3707 /* ORBaseListModel.m */,
+				DD6EE69F1C1035B600CE3707 /* ORBasePageListModel.h */,
+				DD6EE6A01C1035B600CE3707 /* ORBasePageListModel.m */,
+			);
+			name = ORListModel;
 			sourceTree = "<group>";
 		};
 		DD7D64E71C07F53100805075 = {
@@ -252,6 +274,7 @@
 				DD7D65321C07F83C00805075 /* GSDataEngine.h */,
 				DD7D65331C07F83C00805075 /* GSDataEngine.m */,
 				DD7D65351C07FFE800805075 /* HttpEngine */,
+				DD6EE69A1C10355000CE3707 /* ORListModel */,
 				DD7D654B1C0805D300805075 /* Util */,
 			);
 			name = DataEngine;
@@ -309,8 +332,8 @@
 		DD7D65E61C085BA500805075 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DD7D65E71C085BB500805075 /* YDViewModel.h */,
-				DD7D65E81C085BB500805075 /* YDViewModel.m */,
+				DD6EE6A41C1035D000CE3707 /* YDViewModel.h */,
+				DD6EE6A51C1035D000CE3707 /* YDViewModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -510,17 +533,20 @@
 				DD7D65581C08060000805075 /* GSSizeUtil.m in Sources */,
 				DD7D65611C0806E900805075 /* SecurityUtil.m in Sources */,
 				DD7D655D1C08066B00805075 /* GSUserSetting.m in Sources */,
+				DD6EE6A21C1035B600CE3707 /* ORBaseListModel.m in Sources */,
 				DD7D65D11C08529C00805075 /* GSHTTPTask.m in Sources */,
 				DD7D64FB1C07F53100805075 /* ViewController.m in Sources */,
 				DD7D65E41C08548B00805075 /* GSTaskResponse.m in Sources */,
 				DD7D65311C07F69300805075 /* GSDataDef.m in Sources */,
-				DD7D65E91C085BB500805075 /* YDViewModel.m in Sources */,
 				DD7D64F81C07F53100805075 /* AppDelegate.m in Sources */,
+				DD6EE6A61C1035D000CE3707 /* YDViewModel.m in Sources */,
 				DD7D652C1C07F63B00805075 /* Jastor.m in Sources */,
 				DD7D65341C07F83C00805075 /* GSDataEngine.m in Sources */,
 				DD7D65E11C08548B00805075 /* GSHTTPURLRequestSerializer.m in Sources */,
 				DD7D65561C08060000805075 /* AppUtil.m in Sources */,
+				DD6EE6A31C1035B600CE3707 /* ORBasePageListModel.m in Sources */,
 				DD7D65571C08060000805075 /* DataUtil.m in Sources */,
+				DD6EE6A11C1035B600CE3707 /* BaseModel.m in Sources */,
 				DD7D64F51C07F53100805075 /* main.m in Sources */,
 				DD7D65D01C08529C00805075 /* GSHTTPRequestOperationManager.m in Sources */,
 				DD7D65CF1C08529C00805075 /* GSErrorDef.m in Sources */,
